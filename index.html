@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="font-hanken">
+    <main>
+      <div class="flex justify-center items-center h-screen">
+        <div class="flex bg-white rounded-3xl shadow-xl flex-col sm:flex-row">
+          <div
+            class="flex flex-col flex-shrink-0 bg-gradient-to-b from-light-slate-blue to-light-royal-blue text-center w-auto sm:w-[375px] p-10 gap-6 rounded-3xl"
+          >
+            <div class="text-2xl text-light-lavender pb-4 font-medium">
+              Your Result
+            </div>
+            <div class="flex justify-center items-center">
+              <div
+                class="flex justify-center items-center rounded-full w-52 h-52 bg-gradient-to-b from-violet-blue to-persian-blue"
+              >
+                <div class="flex flex-col">
+                  <p class="text-7xl text-white font-bold">76</p>
+                  <p class="text-light-lavender">of 100</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-3xl text-white">Great</div>
+            <div class="px-10 text-light-lavender">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </div>
+          </div>
+          <div
+            class="flex flex-col w-auto sm:w-[375px] flex-shrink-0 gap-4 p-10"
+          >
+            <div class="flex-initial text-2xl text-dark-gray-blue font-bold">
+              Summary
+            </div>
+            <div class="flex p-4 rounded-lg bg-light-red/5 gap-2 items-center">
+              <div class="px-1">
+                <img src="./assets/images/icon-reaction.svg" />
+              </div>
+              <div class="text-light-red font-medium text-lg w-">Reaction</div>
+              <div class="flex-auto text-right font-extrabold text-lg">
+                <span class="text-dark-gray-blue">80</span
+                ><span class="text-dark-gray-blue/40"> / 100</span>
+              </div>
+            </div>
+            <div
+              class="flex p-4 rounded-lg bg-orangy-yellow/5 gap-2 items-center"
+            >
+              <div class="px-1">
+                <img src="./assets/images/icon-memory.svg" />
+              </div>
+              <div class="text-orangy-yellow font-medium text-lg w-">
+                Memory
+              </div>
+              <div class="flex-auto text-right font-extrabold text-lg">
+                <span class="text-dark-gray-blue">92</span
+                ><span class="text-dark-gray-blue/40"> / 100</span>
+              </div>
+            </div>
+            <div class="flex p-4 rounded-lg bg-green-teal/5 gap-2 items-center">
+              <div class="px-1">
+                <img src="./assets/images/icon-verbal.svg" />
+              </div>
+              <div class="text-green-teal font-medium text-lg w-">Verbal</div>
+              <div class="flex-auto text-right font-extrabold text-lg">
+                <span class="text-dark-gray-blue">61</span
+                ><span class="text-dark-gray-blue/40"> / 100</span>
+              </div>
+            </div>
+            <div
+              class="flex p-4 rounded-lg bg-cobalt-blue/5 gap-2 items-center"
+            >
+              <div class="px-1">
+                <img src="./assets/images/icon-visual.svg" />
+              </div>
+              <div class="text-cobalt-blue font-medium text-lg w-">Visual</div>
+              <div class="flex-auto text-right font-extrabold text-lg">
+                <span class="text-dark-gray-blue">72</span
+                ><span class="text-dark-gray-blue/40"> / 100</span>
+              </div>
+            </div>
+
+            <div
+              class="bg-dark-gray-blue p-4 rounded-3xl text-center text-white text-bold mt-6"
+            >
+              Continue
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="text-center p-2">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Tommy Trinh</a>.
+      </div>
+    </footer>
+  </body>
+</html>
